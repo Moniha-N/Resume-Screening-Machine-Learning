@@ -47,6 +47,7 @@ How It Works
    - Shortlisted / Not Shortlisted Result
 
 Installation
+
 '''bash
 git clone https://github.com/Moniha-N/Resume-Screening-Machine-Learning.git
 cd Resume-Screening-Machine-Learning
@@ -55,7 +56,6 @@ venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
 '''
-
 Open:
 http://127.0.0.1:5000
 
