@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Project :Resume Shortlisting  System
 
 A Machine Learning based Resume Shortlisting System developed using Python, Flask, and Logistic Regression. This project analyzes text-based resume details and predicts whether a candidate is shortlisted or not.
@@ -47,19 +46,6 @@ How It Works
    - Matched Skills
    - Shortlisted / Not Shortlisted Result
 
-Installation
-
-'''bash
-git clone https://github.com/Moniha-N/Resume-Screening-Machine-Learning.git
-cd Resume-Screening-Machine-Learning
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-python app.py
-'''
-Open:
-http://127.0.0.1:5000
-
 Future Improvements
 
 - PDF Resume Upload
@@ -69,6 +55,10 @@ Future Improvements
 
   Author
 - Moniha N
-=======
+  
+Screenshots :
+<img width="904" height="433" alt="resume2" src="https://github.com/user-attachments/assets/e33cb83c-5946-474c-8fd0-fef07588633d" />
+<img width="919" height="434" alt="resume1" src="https://github.com/user-attachments/assets/4c007ed5-d03d-47c6-8c2d-7b390d2f6593" />
+
 # Resume-Screening-Machine-Learning
 >>>>>>> f5935900f3f087f319aa8c0d9a80eff8ed317970
