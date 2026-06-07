@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Project :Resume Shortlisting  System
 
 A Machine Learning based Resume Shortlisting System developed using Python, Flask, and Logistic Regression. This project analyzes text-based resume details and predicts whether a candidate is shortlisted or not.
@@ -68,3 +69,6 @@ Future Improvements
 
   Author
 - Moniha N
+=======
+# Resume-Screening-Machine-Learning
+>>>>>>> f5935900f3f087f319aa8c0d9a80eff8ed317970
