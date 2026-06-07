@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Shortlisting System</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- LEFT PANEL -->
+    <div class="left-panel">
+        <h1> Resume Shortlisting System</h1>
+        <p class="desc">
+            Upload your resume and instantly check how well it matches the job role.
+        </p>
+
+        <ul>
+            <li>✔ Skill Matching</li>
+            <li>✔ Resume Score</li>
+            <li>✔ Job Role Analysis</li>
+            <li>✔ Smart Shortlisting</li>
+        </ul>
+    </div>
+
+    <!-- RIGHT PANEL -->
+    <div class="right-panel">
+        <h2>Check Your Resume</h2>
+
+        <form action="/" method="post" enctype="multipart/form-data">
+
+            <label>Upload Resume</label>
+            <input type="file" name="resume" required>
+
+            <label>Job Role</label>
+            <select name="role">
+                <option>Front-end Developer</option>
+                <option>Back-end Developer</option>
+                <option>Full Stack Developer</option>
+                <option>AIML Engineer</option>
+                <option>Data Scientist</option>
+                <option>UI Designer</option>
+                <option>UX Designer</option>
+                <option>Python Developer</option>
+                <option>Java Developer</option>
+            </select>
+
+            <label>Experience (years)</label>
+            <input type="number" name="experience" required>
+
+            <label>Projects</label>
+            <select name="projects">
+                <option value="0">No projects</option>
+                <option value="1">1–2 projects</option>
+                <option value="2">3–4 projects</option>
+                <option value="3">5+ projects</option>
+            </select>
+
+            <label>Education</label>
+            <input type="text" name="education" placeholder="Eg: B.Tech">
+
+            <label>Certificates</label>
+            <input type="number" name="certificates" required>
+
+            <button type="submit">Analyze Resume</button>
+        </form>
+
+        {% if status %}
+        <div class="result-box">
+            <h3>Result</h3>
+            <p><b>Match Percentage:</b> {{ skill_percent }}%</p>
+            <p><b>Skill Level:</b> {{ skill_level }}</p>
+
+            <p><b>Matched Skills:</b></p>
+            <ul>
+                {% for skill in matched_skills %}
+                    <li>{{ skill }}</li>
+                {% endfor %}
+            </ul>
+
+            <h4 class="final">{{ status }}</h4>
+        </div>
+        {% endif %}
+    </div>
+
+</div>
+
+</body>
+</html>

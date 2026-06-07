@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: radial-gradient(circle, #803f75, #000);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: block;
+}
+
+/* MAIN CARD */
+.container {
+    display: flex;
+    width: 950px;
+    height: 520px;
+    border-radius: 22px;
+    overflow: hidden;
+    margin: 40px auto;
+    box-shadow: 0 25px 70px rgba(0,0,0,0.9);
+}
+
+/* LEFT PANEL */
+.left-panel {
+    box-shadow: inset- 20px 0 40px rgba(255, 255, 255, 0.5);
+    width: 45%;
+    padding: 45px;
+    background: linear-gradient(135deg, #944280, #b05a96);
+}
+
+.left-panel h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.left-panel .desc {
+    font-size: 14px;
+    opacity: 0.9;
+    margin-bottom: 30px;
+}
+
+.left-panel ul {
+    list-style: none;
+    padding: 0;
+}
+
+.left-panel li {
+    margin-bottom: 12px;
+    font-size: 14px;
+}
+
+/* RIGHT PANEL */
+.right-panel {
+    overflow-y: auto;
+    overflow-x: hidden;
+     box-shadow: inset- 20px 0 40px rgba(0, 0, 0, 0.8);
+    width: 55%;
+    padding: 40px;
+    background-color: #121212;
+}
+
+.right-panel h2 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+/* FORM */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 12px;
+    color: #aaa;
+    margin-bottom: 5px;
+}
+
+input, select {
+    margin-bottom: 14px;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+
+input:focus, select:focus {
+    outline: none;
+    box-shadow: 0 0 6px #7f3cff;
+}
+
+/* BUTTON */
+button {
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 25px;
+    border: none;
+    background: white;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* RESULT */
+.result-box {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    font-size: 13px;
+}
+
+.result-box ul {
+    padding-left: 20px;
+}
+
+.final {
+    color: 
+    #00ff55;
+    margin-top: 10px;
+}

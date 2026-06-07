@@ -1,0 +1,17 @@
+Name: Divya N
+Job Role: Data Analyst
+
+Skills:
+Python, Pandas, Excel, SQL
+
+Experience:
+1.5 years
+
+Projects:
+Sales Data Analysis
+
+Education:
+B.Sc Computer Science
+
+Certifications:
+Data Analysis with Python

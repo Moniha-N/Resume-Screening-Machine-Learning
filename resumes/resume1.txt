@@ -1,0 +1,20 @@
+Name: Arjun Kumar
+Job Role: Machine Learning Engineer
+
+Skills:
+Python, Machine Learning, Data Science, NumPy, Pandas, Scikit-learn, Flask, SQL
+
+Experience:
+2 years
+
+Projects:
+Resume Shortlisting System
+House Price Prediction
+Fake News Detection
+
+Education:
+B.Tech Artificial Intelligence and Data Science
+
+Certifications:
+Python for Data Science
+NPTEL Machine Learning

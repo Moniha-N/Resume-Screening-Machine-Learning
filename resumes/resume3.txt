@@ -1,0 +1,19 @@
+Name: Rahul Verma
+Job Role: AI Engineer
+
+Skills:
+Python, Machine Learning, Flask, Pandas, NumPy, Data Science
+
+Experience:
+2 years
+
+Projects:
+Chatbot using Machine Learning
+Resume Analyzer
+
+Education:
+B.Tech Artificial Intelligence
+
+Certifications:
+AI Fundamentals
+Python Programming

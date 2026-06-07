@@ -1,0 +1,19 @@
+Name: Sneha Iyer
+Job Role: ML Developer
+
+Skills:
+Python, Machine Learning, Scikit-learn, Pandas, NumPy, Flask
+
+Experience:
+3 years
+
+Projects:
+Loan Eligibility Prediction
+Spam Email Detection
+
+Education:
+B.Tech Information Technology
+
+Certifications:
+Machine Learning Certification
+Python for ML

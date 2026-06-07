@@ -1,0 +1,22 @@
+Name: Shri Rahul
+Job Role: UI/UX Engineer
+
+Skills:
+
+Good Communication,Learn faster,Computer skills,Management skills,Problem Solving
+
+
+Experience:
+2 years
+
+Projects:
+Resume Shortlisting System
+House Price Prediction
+Fake News Detection
+
+Education:
+B.Sc Artificial Intelligence and Data Science
+
+Certifications:
+Python for Data Science
+NPTEL Machine Learning

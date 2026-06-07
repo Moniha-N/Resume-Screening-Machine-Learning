@@ -1,0 +1,19 @@
+Name: Priya Sharma
+Job Role: Data Scientist
+
+Skills:
+Python, Data Science, Machine Learning, Pandas, NumPy, Scikit-learn, SQL
+
+Experience:
+1.5 years
+
+Projects:
+Customer Churn Prediction
+Student Performance Analysis
+
+Education:
+B.Tech Computer Science
+
+Certifications:
+Data Science with Python
+Machine Learning Foundations

@@ -1,0 +1,17 @@
+Name: Sanjay Kumar
+Job Role: Backend Developer
+
+Skills:
+Python, Flask, SQL
+
+Experience:
+1 year
+
+Projects:
+Employee Management System
+
+Education:
+B.Tech Information Technology
+
+Certifications:
+Flask Web Development
